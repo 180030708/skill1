@@ -44,11 +44,11 @@ steps:
   displayName: 'Use Python $(python.version)'
 
 
-- script: python "sum.py"
+- script: python "skill1.py"
 
 
 
-- task: PythonScript@skill1.py
+- task: PythonScript@0
 
 
   inputs:
